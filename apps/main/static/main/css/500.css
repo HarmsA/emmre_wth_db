@@ -1,0 +1,85 @@
+.a {
+    padding: 10px 30px;
+    height: 250px;
+    min-width: 364px;
+    background-image: url("../../../static/main/images/Oval_blue_background.png");
+    margin-bottom: 75px;
+}
+#atext {
+    padding: 25px 50px 25px 0;
+}
+.a_text h1 {
+    font-size: 22px;
+    color: #ffffff;
+}
+.a_text p {
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.iphones1 {
+    flex: 1;
+    display: flex;
+    padding-left: 10px;
+}
+.iphones1 img {
+    display: inline-block;
+    height: calc(959px*.30);
+}
+.iphones1 img:last-child {
+    margin-left: -110px;
+}
+.a_text {
+    flex: 2;
+    padding: 10px 2px 0 0;
+
+}
+.a_text a:first-of-type{
+    padding: 5px 15px;
+    margin: 0 8px 0 0;
+    width: 134px;
+    height: 36px;
+    border-radius: 17px;
+    background-color: #6b3fb2;
+    font-size: 12px;
+    color: #ffffff;
+}
+.a_text a:last-of-type {
+    padding: 5px 20px;
+    width: 134px;
+    height: 36px;
+    border-radius: 17px;
+    background-color: #10bf31;
+    font-size: 12px;
+    color: #ffffff;
+}
+.b {
+    display: flex;
+    flex-wrap: wrap;
+}
+.b h1 {
+    flex: none;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    font-size: 22px;
+}
+.b_1 {
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.b_1_2 .b_1_Img img, .b_2_2 .b_2_Img img, .b_3_2 .b_3_Img img{
+    height: calc(959px * .23);
+    margin-top: -35px;
+}
+.b_1_P p, .b_3_P p{
+    text-align: left;
+    margin-right: 150px;
+    font-size: 15px;
+}
+.b_2_P p {
+    text-align: right;
+    margin-left: 150px;
+    font-size: 15px;
+}

@@ -16,7 +16,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     {% load static %}
     <!--<link rel="stylesheet" type="text/css" href="main.css"> -->
+{#    <link rel="stylesheet" media="screen and (min-width: 801px)" href="{% static 'main/css/801.css' %}">#}
+{#    <link rel="stylesheet" media="screen and (max-width: 800px)" href="{% static 'main/css/800.css' %}">#}
+{#    <link rel="stylesheet" media="screen and (max-width: 320px)" href="{% static 'main/css/321.css' %}">#}
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/footer.css' %}">
+    <link rel="stylesheet" media="screen and (min-width: 500px)" href="{% static 'main/css/500.css' %}">
 </head>
 <body>
     {% include 'main/navbar.html' %}
